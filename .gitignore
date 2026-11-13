@@ -1,0 +1,11 @@
+node_modules/
+dist/
+dist-ssr/
+.env
+.env.*
+*.local
+npm-debug.log*
+.DS_Store
+
+# Keep large video files out of Git
+/public/media/*.mp4
