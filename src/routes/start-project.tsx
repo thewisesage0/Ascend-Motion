@@ -54,11 +54,11 @@ function StartProject() {
       : Object.fromEntries(parsed.error.issues.map((issue) => [String(issue.path[0]), issue.message]));
 
     if (file && file.size > MAX_FILE_BYTES) {
-      nextErrors.attachment = "Choose a file smaller than 25 MB";
+      nextErrors["attachment"] = "Choose a file smaller than 25 MB";
     }
 
     setErrors(nextErrors);
-    if (!parsed.success || nextErrors.attachment) return;
+    if (!parsed.success || nextErrors["attachment"]) return;
 
     const { full_name, email, project_type, budget, details } = parsed.data;
     const subject = `New project enquiry — ${project_type}`;
