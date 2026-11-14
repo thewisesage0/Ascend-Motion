@@ -15,19 +15,19 @@
  */
 export const VIDEO_URLS = {
   /** Homepage hero background and the Ascend Trace portfolio project. */
-  ascendTraceExplainer: "/media/ascend_trace_explainer.mp4",
+  ascendTraceExplainer: "https://res.cloudinary.com/x8wvyfe8/video/upload/v1794615257/ascend_trace_explainer.mp4",
 
   /** Birthday animation celebrating the 19th birthday. */
-  birthday19: "/media/birthday_19_free_videos.mp4",
+  birthday19: "https://res.cloudinary.com/x8wvyfe8/video/upload/v1794615259/birthday_19_free_videos.mp4",
 
   /** Coca-Cola Original Taste / Real Magic product spot. */
-  cocaColaRealMagic: "/media/coca-cola-real-magic.mp4",
+  cocaColaRealMagic: "https://res.cloudinary.com/x8wvyfe8/video/upload/v1794615276/coca-cola-real-magic.mp4",
 
   /** GoodNovel reader promo for Alpha Werewolf Kings. */
-  goodNovelReaderPromo: "/media/goodnovel_reader_promo.mp4",
+  goodNovelReaderPromo: "https://res.cloudinary.com/x8wvyfe8/video/upload/v1794615278/goodnovel_reader_promo.mp4",
 
   /** Environmental film: The Air We Leave. */
-  pollutionDocumentary: "/media/pollution_documentary_the_air_we_leave.mp4",
+  pollutionDocumentary: "https://res.cloudinary.com/x8wvyfe8/video/upload/v1794615285/pollution_documentary_the_air_we_leave.mp4",
 } as const;
 
 /**
